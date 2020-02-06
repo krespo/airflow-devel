@@ -1,0 +1,13 @@
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+unittests.cfg
+.idea
+logs
+venv
+*.iml
+.envrc
+.direnv
+dist
+airflow.egg-info
+build
