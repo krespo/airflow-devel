@@ -18,7 +18,7 @@ pip install -r ${AIRFLOW_HOME}/requirements.txt > /dev/null
 echo '[Success] pip install Airflow'
 
 ## airflow initialize
-airflow initdb > /dev/null
+airflow initdb
 
 echo -e "\033[0;33m##############[[[[ 설정 완료 ]]] #########################\033[0m"
-echo "\033[0;33mairflow.cfg를 수정하고 실행하세요\033[0m"
+echo -e "\033[0;33mairflow.cfg를 수정하고 실행하세요\033[0m"
