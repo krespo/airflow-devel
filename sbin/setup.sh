@@ -8,7 +8,7 @@ AIRFLOW_HOME=$( cd "$(dirname "$0")/../" ; pwd )
 
 
 ## create .envrc
-echo 'export AIRFLOW_HOME='$AIRFLOW_HOME >> $AIRFLOW_HOME/.envrc
+printf 'layout python3\nexport AIRFLOW_HOME='$AIRFLOW_HOME > $AIRFLOW_HOME/.envrc
 
 direnv allow
 
