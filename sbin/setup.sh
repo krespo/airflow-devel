@@ -11,7 +11,7 @@ AIRFLOW_HOME=$( cd "$(dirname "$0")/../" ; pwd )
 printf 'layout python3\nexport AIRFLOW_HOME='$AIRFLOW_HOME > $AIRFLOW_HOME/.envrc
 
 direnv allow
-eval "$(direnv hook bash)"
+eval "$(direnv export bash)"
 
 ## airflow installation
 echo '[Install] pip install Airflow'

@@ -1,2 +1,2 @@
 apache-airflow==1.10.5
-pip install werkzeug==0.16.0
+werkzeug==0.16.0
